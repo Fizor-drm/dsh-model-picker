@@ -1,0 +1,58 @@
+{
+  "name": "@fizor-drm/dsh-model-picker",
+  "version": "0.2.0",
+  "description": "A T3-inspired two-column model picker for the DeepSeek Harness composer: favorites, search, provider marks and reasoning effort.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Fizor-drm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fizor-drm/dsh-model-picker.git"
+  },
+  "homepage": "https://github.com/Fizor-drm/dsh-model-picker#readme",
+  "bugs": {
+    "url": "https://github.com/Fizor-drm/dsh-model-picker/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "model-picker",
+    "t3",
+    "favorites",
+    "composer"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "package.json",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "FORK-NOTICE.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test test/smoke.mjs",
+    "prepublishOnly": "node scripts/build.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
