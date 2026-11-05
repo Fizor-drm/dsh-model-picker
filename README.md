@@ -65,5 +65,8 @@ MIT. This is a fork of
 0.5.0 (MIT); the upstream license is preserved in `LICENSE`, and the fork
 notice is in `FORK-NOTICE.md`.
 
-Provider marks are from Simple Icons (CC0) except the Qoder mark, which comes
-from the Qoder OAuth plugin. Brand names and marks belong to their owners.
+Provider marks are from [AgenticDriver provider-icons](https://agenticdriver.dev/icons)
+1.1.0, whose source SVGs are kept in `assets/providers/`. AgenticDriver retains
+the MIT notices of LobeHub, CodexBar and the other upstream collections; see
+`THIRD-PARTY-NOTICES.md` and `assets/providers/licenses/`. Brand names and marks
+belong to their owners.

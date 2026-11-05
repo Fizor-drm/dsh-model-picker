@@ -1,6 +1,6 @@
 {
   "name": "@fizor-drm/dsh-model-picker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A T3-inspired two-column model picker for the DeepSeek Harness composer: favorites, search, provider marks and reasoning effort.",
   "type": "module",
   "license": "MIT",
@@ -38,6 +38,10 @@
     "icon.svg",
     "README.md",
     "FORK-NOTICE.md",
+    "THIRD-PARTY-NOTICES.md",
+    "assets/providers/*.svg",
+    "assets/providers/sources.json",
+    "assets/providers/licenses/*.txt",
     "LICENSE"
   ],
   "scripts": {

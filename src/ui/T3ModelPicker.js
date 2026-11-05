@@ -28,7 +28,8 @@ const T3_CSS = `
 .t3mp-trigger-chevron { display: inline-flex; flex: none; opacity: .65; }
 .dmp-chevron { transition: transform .15s; }
 .dmp-chevron-open { transform: rotate(180deg); }
-.t3mp-logo { display: block; width: 20px; height: 20px; flex: none; }
+.t3mp-logo { display: block; width: 20px; height: 20px; flex: none; object-fit: contain; }
+.t3mp-logo-mask { background-color: currentColor; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: center; mask-position: center; -webkit-mask-size: contain; mask-size: contain; }
 .t3mp-logo-fallback { display: inline-flex; align-items: center; justify-content: center;
   width: 20px; height: 20px; font-size: 11px; font-weight: 600; }
 .t3mp-rail-btn .t3mp-logo, .t3mp-rail-btn .t3mp-logo-fallback { width: 22px; height: 22px; }
