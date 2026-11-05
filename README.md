@@ -14,7 +14,7 @@ sync.
 - Favorites (★) persisted in `localStorage`
 - Search across model names and ids
 - Provider rail with real provider marks
-  - Claude, Gemini, Grok/X, DeepSeek, OpenAI/Codex, GitHub Copilot, Qoder
+  - Claude, Gemini, Grok/X, DeepSeek, OpenAI/Codex, GitHub Copilot, Qoder, GLM / Z.ai
   - unknown providers fall back to a monogram
 - Reasoning effort controls from the model's own `reasoning.efforts`
 - Japanese UI

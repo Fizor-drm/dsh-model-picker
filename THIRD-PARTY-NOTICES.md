@@ -13,12 +13,19 @@ LobeHub `lobe-icons`, `steipete/CodexBar`, `hashimkarim/usagestat-bar`,
 is included in `assets/providers/licenses/`.
 
 - `claude.svg`, `gemini.svg`, `deepseek.svg`, `qwen.svg`, `kimi.svg`,
-  `minimax.svg`, `codebuddy.svg`, `chatglm.svg`: colour artwork
+  `minimax.svg`, `codebuddy.svg`: colour artwork
 - `grok.svg`, `openai.svg`, `githubcopilot.svg`, `qoder.svg`,
   `commandcode.svg`: monochrome artwork, rendered as a theme-following mask
 
 Product names and logos are trademarks of their respective owners. Inclusion
 does not imply endorsement or any transfer of trademark rights.
+
+## GLM / Z.ai / Zhipu
+
+The `zai.svg` mark was extracted from the ZAI entry in
+[AI Logo](https://ailogo.yldm.ai/?lang=ja&view=icons&q=Z&icon=ZAI) by
+[yldm-tech/ai-logo](https://github.com/yldm-tech/ai-logo) (MIT). Its license is
+included as `assets/providers/licenses/Yldm-AI-Logo-MIT.txt`.
 
 ## Qoder
 
