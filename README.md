@@ -66,7 +66,7 @@ MIT. This is a fork of
 notice is in `FORK-NOTICE.md`.
 
 Provider marks are from [AgenticDriver provider-icons](https://agenticdriver.dev/icons)
-1.1.0, whose source SVGs are kept in `assets/providers/`. AgenticDriver retains
-the MIT notices of LobeHub, CodexBar and the other upstream collections; see
-`THIRD-PARTY-NOTICES.md` and `assets/providers/licenses/`. Brand names and marks
-belong to their owners.
+1.1.0, whose source SVGs are kept in `assets/providers/`. The Z.ai mark is
+user-provided. AgenticDriver retains the MIT notices of LobeHub, CodexBar and
+the other upstream collections; see `THIRD-PARTY-NOTICES.md` and
+`assets/providers/licenses/`. Brand names and marks belong to their owners.

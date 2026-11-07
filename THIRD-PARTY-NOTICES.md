@@ -20,12 +20,10 @@ is included in `assets/providers/licenses/`.
 Product names and logos are trademarks of their respective owners. Inclusion
 does not imply endorsement or any transfer of trademark rights.
 
-## GLM / Z.ai / Zhipu
+## Z.ai / GLM
 
-The `zai.svg` mark was extracted from the ZAI entry in
-[AI Logo](https://ailogo.yldm.ai/?lang=ja&view=icons&q=Z&icon=ZAI) by
-[yldm-tech/ai-logo](https://github.com/yldm-tech/ai-logo) (MIT). Its license is
-included as `assets/providers/licenses/Yldm-AI-Logo-MIT.txt`.
+The `zai.svg` mark was supplied by the user for this plugin. Z.ai and GLM are
+trademarks of their owner; the mark is used only to identify the provider.
 
 ## Qoder
 
